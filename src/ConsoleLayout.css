@@ -1,0 +1,32 @@
+.console-layout {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 900px;
+    background-color: #1E1E1E;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    z-index: 1000;
+    border: solid 3px #2A2A2A;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    align-self: center;
+    justify-self: center;
+    margin-top: 10vh;
+}
+
+.console-header {
+    padding: 10px;
+    color: #E0E0E0;
+    background-color: #1e1e1e;
+    border-bottom: 3px solid #2A2A2A;
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1010;
+}
